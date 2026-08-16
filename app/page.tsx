@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const writingTopics = [
   "Living in San Francisco",
   "Working at an early-stage company",
@@ -51,7 +53,12 @@ export default function Home() {
       </section>
 
       <section className="photo-section" aria-label="San Francisco">
-        <img src="/sf-street.jpg" alt="A person walking down a foggy San Francisco street" />
+        <Image
+          src="/sf-street.jpg"
+          alt="A person walking down a foggy San Francisco street"
+          fill
+          sizes="100vw"
+        />
         <span>San Francisco, California</span>
       </section>
 

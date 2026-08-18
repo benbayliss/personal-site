@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "description": "Automated site-health records created only after lint and tests pass.",
   "latest": {
-    "recordedAt": "2026-08-18T00:01:08.486Z",
-    "commit": "88e06531bb6d",
+    "recordedAt": "2026-08-18T17:48:42.416Z",
+    "commit": "6572ca0b19d2",
     "status": "passing",
     "node": "v22.19.0",
     "sourceFiles": 10,
@@ -60,6 +60,17 @@
     {
       "recordedAt": "2026-08-18T00:01:08.486Z",
       "commit": "88e06531bb6d",
+      "status": "passing",
+      "node": "v22.19.0",
+      "sourceFiles": 10,
+      "sourceLines": 986,
+      "buildFiles": 72,
+      "buildBytes": 2040761,
+      "dependencies": 25
+    },
+    {
+      "recordedAt": "2026-08-18T17:48:42.416Z",
+      "commit": "6572ca0b19d2",
       "status": "passing",
       "node": "v22.19.0",
       "sourceFiles": 10,
